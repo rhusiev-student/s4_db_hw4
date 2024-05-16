@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE "/drive/Projects/ucu/db/hw4/populate.csv"
+INTO TABLE MyISAM
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n';
